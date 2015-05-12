@@ -8,11 +8,11 @@ using webapiAPP.Model;
 namespace webapiAPP.Controllers
 {
     [Route("api/[controller]")]
-    public class ValuesController : Controller
+    public class TodoController : Controller
     {
         private readonly TestRepo _repository;
 
-        public ValuesController(TestRepo repository)
+        public TodoController(TestRepo repository)
         {
             _repository = repository;
         }
